@@ -4,40 +4,35 @@
     box-sizing: border-box;
 }
 
-header {
-    background: #29b8d8;
-    position: fixed;
-    width: 100%;
-}
-
-li {
-    display: inline-block;
-    padding: 27px;
-    padding-top: 40px;
-    text-transform: capitalize;
-}
-
-
-a {
-    font-family: "Varela Round", Sans-serif;
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-
 img,
 svg {
     vertical-align: middle;
-    width: 15%;
-    padding: 18px;
-    vertical-align: middle;
+    width: 126px;
+    padding: 10px;
 }
 
-ul {
-    display: inline-block;
-    float: right;
+div#mynavbar {
+    padding: 0px;
+}
+
+#mynavbar {
+    font-size: 26px;
+}
+
+ul.navbar-nav.me-auto {
+    padding-left: 223px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: 98px;
+    color: black;
+    ;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+a.navbar-brand {
+    display: contents;
 }
 
 .box-1 {
@@ -325,12 +320,6 @@ li.icon {
     padding-top: 0px;
 }
 
-.box-11 {
-
-    display: block;
-    width: 33%;
-}
-
 .box-11 img {
     /* vertical-align: middle; */
     width: 29%;
@@ -385,7 +374,7 @@ p.lomer {
     display: block;
     width: 100%;
     background: white;
-    padding: 43px 0px;
+    padding: 20px 10px 65px 10px;
     border-radius: 28px;
 }
 
@@ -517,27 +506,42 @@ h1.for {
     color: #7a7a7a;
 }
 
+li.icon {
+    display: contents;
+}
+
+.box-11 img {
+    vertical-align: middle;
+    /* width: 29%; */
+    padding-top: -8px;
+    margin-top: -52px;
+    width: 100px;
+}
+
 @media (max-width:590px) {
     p.text {
         font-size: 18px;
     }
+
     li {
 
-       padding: 2px;
+        padding: 2px;
         padding-top: 10px;
     }
 
     a {
         font-size: 11px;
     }
+
     .box-1 h2 {
         font-size: 12px;
     }
-       
-    
+
+
     i.fa.fa-sitemap {
         padding: 19px
     }
+
     .box-3 h3 {
 
         font-size: 27px;
@@ -546,28 +550,35 @@ h1.for {
     .box-2 h1 {
         font-size: 41px;
     }
+
     .box-3 h3 {
         padding: 11px;
     }
+
     button {
         padding: 9px 17px;
         margin-top: 38px;
         font-size: 14px;
         font-weight: 600;
     }
+
     .box-3 p {
         font-size: 20px;
     }
+
     .box-4 p {
         font-size: 20px
     }
+
     .box-4 h2 {
         font-size: 31px;
     }
+
     p.time {
         font-size: 18px;
         padding-left: 9px;
     }
+
     i.fa.fa-check-circle-o {
         font-size: 30px;
         color: #7a7a7a;
@@ -578,92 +589,133 @@ h1.for {
         padding: 3px 44px;
         display: block;
     }
+
     .box-5 h1 {
         padding: 5px;
         font-size: 29px;
     }
+
     button.btn {
         padding: 7px 14px;
         font-size: 9px;
         margin-left: 24px;
     }
+
     section {
         padding: 49px 0px;
     }
+
     button.git {
         margin-left: 31px;
     }
+
     .box-7 h2 {
         font-size: 21px;
     }
+
     .box-8 h1 {
         font-size: 30px;
     }
+
     .box-9 img {
         width: 100%;
         padding: 0px;
     }
+
     .box-9 h4 {
         padding-left: 9px;
         font-size: 20px;
         padding-top: 36px;
     }
+
     .box-5 h1 {
         padding: 5px;
         font-size: 61px;
     }
+
     button.btn {
         padding: 7px 14px;
         font-size: 30px;
         margin-left: 86px;
     }
+
     .box-5 {
         margin: 10px;
     }
+
     .box-11 {
         margin: 1px 0px 13px;
     }
+
     img,
     svg {
-   width: 18%;
+        width: 18%;
     }
+
     .box-7 p {
         font-size: 18px;
     }
+
     h5 {
-        
-            text-align: center;
-            font-size: 18px;
+
+        text-align: center;
+        font-size: 18px;
     }
+
     .box-9 img {
         width: 53%;
         margin-left: 84px;
         margin-bottom: 31px;
     }
+
     .box-11 button {
         font-size: 21px;
     }
+
     .box-13 p {
         padding-left: 27px;
     }
+
     h1.for {
         margin-top: 29px;
     }
+
     .box-18 h4 {
         font-size: 21px;
         text-align: inherit;
     }
+
     input#fname {
         margin-left: 36px;
         padding: 5px 21px;
         width: 82%;
         margin-top: 21px;
     }
+
     .box-16 input#fname {
         margin-top: 52px;
 
     }
+
     .box-11 img {
         width: 26%;
     }
+
+
+
+div#mynavbar {
+    padding: 0px;
+    /* padding-left: 317px; */
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    margin-top: 17px;
+}
+ul.navbar-nav.me-auto {
+    padding-left: 20px;
+}
+i.fa.fa-bars {
+    color: black;
+}
 }
