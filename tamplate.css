@@ -718,4 +718,33 @@ ul.navbar-nav.me-auto {
 i.fa.fa-bars {
     color: black;
 }
+button.btn {
+    padding: 7px 14px;
+    font-size: 10px;
+    margin-left: 115px;
+}
+h5 {
+    text-align: center;
+    font-size: 15px;
+}
+i.fa.fa-check-circle-o {
+    font-size: 23px;}
+    
+    .box-14 h5 {
+        padding-top: 23px;
+        text-align: inherit;
+    
+}
+.box-1 h1 {
+  
+    font-size: 14px;
+    line-height: 22px;
+  
+}
+.box-4 p {
+    font-size: 16px;
+}
+section {
+    padding: 14px 0px;
+}
 }
