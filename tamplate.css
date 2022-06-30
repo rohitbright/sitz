@@ -725,7 +725,10 @@ button.btn {
 }
 h5 {
     text-align: center;
-    font-size: 15px;
+   h5 {
+    text-align: center;
+    font-size: 14px;
+}
 }
 i.fa.fa-check-circle-o {
     font-size: 23px;}
